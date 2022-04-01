@@ -47,6 +47,3 @@ jobs:
           images: emachado/conversao-temperatura:v${{github.run_number}}
           manifests: |
             k8s/Deployment.yaml
-            
-						
-						
